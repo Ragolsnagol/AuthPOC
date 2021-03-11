@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthBackend", "AuthBackend\AuthBackend.csproj", "{7D21A741-DA9C-4446-B957-47E645741CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi", "WeatherApi\WeatherApi.csproj", "{1F86DD4D-90BB-453C-AFC2-5CC2FA9E15CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D21A741-DA9C-4446-B957-47E645741CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D21A741-DA9C-4446-B957-47E645741CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D21A741-DA9C-4446-B957-47E645741CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D21A741-DA9C-4446-B957-47E645741CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F86DD4D-90BB-453C-AFC2-5CC2FA9E15CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F86DD4D-90BB-453C-AFC2-5CC2FA9E15CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F86DD4D-90BB-453C-AFC2-5CC2FA9E15CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F86DD4D-90BB-453C-AFC2-5CC2FA9E15CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E7D086C-2775-4720-80E3-2F3FF06658CF}
+	EndGlobalSection
+EndGlobal
