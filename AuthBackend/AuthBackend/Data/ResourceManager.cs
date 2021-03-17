@@ -37,5 +37,12 @@ namespace AuthBackend.Data
                     Scopes = new List<string> { "app.api.weather" }
                 }
             };
+
+        public static IEnumerable<IdentityResource> IdentityResources =>
+            new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(),
+                new IdentityResources.Profile(),
+            };
     }
 }
