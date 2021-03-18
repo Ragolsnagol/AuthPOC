@@ -23,6 +23,15 @@ namespace AuthBackend.Data
                          AllowedGrantTypes = GrantTypes.ClientCredentials,
                          ClientSecrets = { new Secret("1554db43-3015-47a8-a748-55bd76b6af48".Sha256()) },
                          AllowedScopes = { "app.api.weather" }
+                    },
+                    new Client
+                    {
+                         ClientName = "Interactive Client1",
+                         ClientId = "test",
+                         AllowedGrantTypes = GrantTypes.Code,
+                         RequirePkce = true,
+                         ClientSecrets = { new Secret("2dbe2d5f-aefc-416c-8ecf-5e333b064c1e".Sha256()) },
+                         AllowedScopes = { "app.api.weather" }
                     }
             };
     }
